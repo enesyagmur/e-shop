@@ -15,6 +15,10 @@
 .searchBar input {
   width: 500px;
   padding: 5px;
+  margin: 10px;
+}
+.searchBar button {
+  padding: 5px;
 }
 main {
   width: 100%;
