@@ -15,3 +15,6 @@ const Home = () => {
 };
 
 export default Home;
+
+// tıklanan butona göre kategorilere ayırma işlemindeyim
+// sonrasında searchbar işlemine geçicem

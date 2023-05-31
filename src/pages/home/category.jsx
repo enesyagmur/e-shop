@@ -14,6 +14,7 @@ const Category = () => {
       <div onClick={() => goCategory("ekipman")}>Ekipmanlar</div>
       <div onClick={() => goCategory("bileşen")}>Bileşenler</div>
       <div onClick={() => goCategory("yazılım")}>Yazılım</div>
+      <div onClick={() => goCategory("hepsi")}>Tüm ürünler</div>
     </div>
   );
 };
