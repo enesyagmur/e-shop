@@ -1,6 +1,12 @@
 import React from "react";
 import "../../style/home.css";
 import { useNavigate } from "react-router-dom";
+import { CgBox } from "react-icons/cg";
+import { BsLaptop } from "react-icons/bs";
+import { GiProcessor } from "react-icons/gi";
+import { BsMouse2 } from "react-icons/bs";
+import { GrWindows } from "react-icons/gr";
+import { AiOutlineSmallDash } from "react-icons/ai";
 
 const Category = () => {
   const naviGate = useNavigate();
@@ -9,12 +15,24 @@ const Category = () => {
   };
   return (
     <div className="category">
-      <div onClick={() => goCategory("hazırsistem")}>Hazır sistemler</div>
-      <div onClick={() => goCategory("laptop")}>Laptoplar</div>
-      <div onClick={() => goCategory("ekipman")}>Ekipmanlar</div>
-      <div onClick={() => goCategory("bileşen")}>Bileşenler</div>
-      <div onClick={() => goCategory("yazılım")}>Yazılım</div>
-      <div onClick={() => goCategory("hepsi")}>Tüm ürünler</div>
+      <div onClick={() => goCategory("hazırsistem")}>
+        <CgBox />
+      </div>
+      <div onClick={() => goCategory("laptop")}>
+        <BsLaptop />
+      </div>
+      <div onClick={() => goCategory("ekipman")}>
+        <BsMouse2 />
+      </div>
+      <div onClick={() => goCategory("bileşen")}>
+        <GiProcessor />
+      </div>
+      <div onClick={() => goCategory("yazılım")}>
+        <GrWindows />
+      </div>
+      <div onClick={() => goCategory("hepsi")}>
+        <AiOutlineSmallDash />
+      </div>
     </div>
   );
 };

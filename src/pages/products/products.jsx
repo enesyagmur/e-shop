@@ -63,9 +63,9 @@ const Products = () => {
           {data
             ? data.map((item) => (
                 <div className="product">
-                  <h1>{item.name}</h1>
-                  <p>{item.category}</p>
-                  <p>{item.detail}</p>
+                  <img src={item.image} />
+                  <h3>{item.name}</h3>
+
                   <button>{item.price} TL</button>
                 </div>
               ))

@@ -6,16 +6,14 @@
 .home {
   display: flex;
   flex-direction: column;
-  padding-left: 5%;
-  padding-right: 5%;
-
+  align-items: center;
   background-color: rgb(236, 233, 233);
   width: 100%;
-  height: 1000px;
+  height: 100vh;
 }
 .topSale {
-  width: 100%;
-  height: 300px;
+  width: 80%;
+  height: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -32,19 +30,30 @@
 
 /*-------------------------------------*/
 .category {
-  width: 100%;
-  height: 150px;
+  width: 80%;
+  height: 120px;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
 }
 .category div {
-  width: 15%;
-  height: 120px;
+  width: 5%;
+  height: 50px;
   border: 1px solid gray;
   background-color: white;
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  margin: 15px;
+}
+.category div:hover {
+  color: gray;
+}
+
+/*-----------------------------------------*/
+.newProducts {
+  width: 80%;
+  height: 100%;
+  background-color: aquamarine;
 }
