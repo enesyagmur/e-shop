@@ -8,13 +8,8 @@ import Filter from "./filter";
 const Products = () => {
   const [data, setData] = useState("");
   const [input, setInput] = useState("");
-  const [sorting, setSorting] = useState("");
   const params = useParams();
   let category = params.category;
-
-  useEffect(() => {
-    setData(db);
-  }, [sorting]);
 
   useEffect(() => {
     if (category !== "hepsi") {
@@ -32,17 +27,23 @@ const Products = () => {
 
   const sort = (type) => {
     if (type === "artan") {
-      db.sort((a, b) => a.price - b.price);
-      setSorting("fiyat artan şeklinde sıralandı");
+      const newDb = [...data];
+      newDb.sort((a, b) => a.price - b.price);
+      setData(newDb);
     } else if (type === "azalan") {
-      db.sort((a, b) => b.price - a.price);
-      setSorting("fiyat azalan şeklinde sıralandı");
+      const newDb = [...data];
+      newDb.sort((a, b) => b.price - a.price);
+      setData(newDb);
     }
+  };
+
+  const search = (value) => {
+    // const newDb = data.filter((item) => item.name === value);
   };
 
   return (
     <div className="products">
-      <SearchBar sort={sort} />
+      <SearchBar sort={sort} search={search} />
       <main>
         {" "}
         {category === "hepsi" ? <Filter filtered={categoryFilter} /> : null}
