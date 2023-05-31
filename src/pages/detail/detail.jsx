@@ -1,6 +1,9 @@
 import React, { useEffect, useState } from "react";
 import db from "../../db/productsDb.json";
-import { useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
+import "../../style/detail.css";
+import { RiShoppingBasketFill } from "react-icons/ri";
+import { BiArrowBack } from "react-icons/bi";
 
 const Detail = () => {
   const [productName, setproductName] = useState();
@@ -18,13 +21,26 @@ const Detail = () => {
     setproductImage(newProduct[0].image);
   }, []);
 
+  const naviGate = useNavigate();
+  const goProducts = () => {
+    naviGate(`/products/hepsi`);
+  };
+
   return (
-    <div>
-      <div>
+    <div className="detail">
+      <div className="detailHeader">
+        <button onClick={goProducts}>
+          <BiArrowBack />
+        </button>
+        <div className="basket">
+          <RiShoppingBasketFill />
+        </div>
+      </div>
+      <div className="detailProduct">
         <img src={productImage} />
         <h5>{productName}</h5>
         <p>{productDetail}</p>
-        <button>{productPrice}</button>
+        <button>{productPrice} TL</button>
       </div>
     </div>
   );
