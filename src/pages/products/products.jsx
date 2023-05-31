@@ -7,6 +7,7 @@ import Filter from "./filter";
 
 const Products = () => {
   const [data, setData] = useState("");
+  const [copyData, setcopyData] = useState([...data]);
   const [input, setInput] = useState("");
   const params = useParams();
   let category = params.category;
@@ -38,7 +39,14 @@ const Products = () => {
   };
 
   const search = (value) => {
-    // const newDb = data.filter((item) => item.name === value);
+    if (value !== "") {
+      const newDb = data.filter(
+        (item) => item.name.toLowerCase().indexOf(value.toLowerCase()) >= 0
+      );
+      setData(newDb);
+    } else {
+      setData(db);
+    }
   };
 
   return (
