@@ -9,6 +9,7 @@ const Filter = ({ filtered }) => {
       <button onClick={() => filtered("ekipman")}>Ekipmanlar</button>
       <button onClick={() => filtered("bileşen")}>Bileşenler</button>
       <button onClick={() => filtered("yazılım")}>Yazılım</button>
+      <button onClick={() => filtered("hepsi")}>Tüm ürünler</button>
     </div>
   );
 };

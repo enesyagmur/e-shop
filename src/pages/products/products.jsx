@@ -7,8 +7,7 @@ import Filter from "./filter";
 
 const Products = () => {
   const [data, setData] = useState("");
-  const [copyData, setcopyData] = useState([...data]);
-  const [input, setInput] = useState("");
+
   const params = useParams();
   let category = params.category;
 
@@ -22,8 +21,12 @@ const Products = () => {
   }, []);
 
   const categoryFilter = (categoryName) => {
-    const newDb = db.filter((item) => item.category === categoryName);
-    setData(newDb);
+    if (categoryName === "hepsi") {
+      setData(db);
+    } else {
+      const newDb = db.filter((item) => item.category === categoryName);
+      setData(newDb);
+    }
   };
 
   const sort = (type) => {
@@ -52,6 +55,7 @@ const Products = () => {
   return (
     <div className="products">
       <SearchBar sort={sort} search={search} />
+
       <main>
         {" "}
         {category === "hepsi" ? <Filter filtered={categoryFilter} /> : null}

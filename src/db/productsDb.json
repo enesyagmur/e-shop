@@ -1,32 +1,122 @@
 [
   {
-    "name": "Eco x7",
-    "price": 15000,
-    "detail": "Oyuncu bilgisayarı",
+    "name": "PLANET-PHOENIX",
+    "price": 19068,
+    "detail": "Intel Core i3 13100F/GIGABYTE GeForce RTX 3060 WINDFORCE OC 12GB/16GB DDR4/500GB NVME M.2 SSD/Geforce RTX RayTracing PC",
     "category": "hazırsistem"
   },
   {
-    "name": "Monster abra a5",
-    "price": 20000,
-    "detail": "Oyuncu laptopu",
+    "name": "DH-WOLF",
+    "price": 21090,
+    "detail": "Intel Core i3 13100F/ASUS GeForce RTX 3060 DUAL OC 8GB/16GB DDR4/480GB NVMe M.2 SSD/Geforce RTX RayTracing PC",
+    "category": "hazırsistem"
+  },
+  {
+    "name": "VOK-BUDGET",
+    "price": 17149,
+    "detail": "Intel Core i3 12100F/ASUS Radeon RX 6600 DUAL 8GB/16GB DDR4/500GB NVME M.2 SSD/GAMING BILGISAYAR",
+    "category": "hazırsistem"
+  },
+  {
+    "name": "TECHNOPAT-MAGIC",
+    "price": 21269,
+    "detail": "Intel Core i3 13100F/ASUS Radeon RX 6650 XT DUAL 8GB OC/16GB DDR4/1TB NVME M.2 SSD/GAMING BILGISAYAR",
+    "category": "hazırsistem"
+  },
+  {
+    "name": "Lenovo IdeaPad Gaming 3 15ARH7",
+    "price": 21499,
+    "detail": "Ryzen 5 6600H 16GB DDR5 RTX 3050 Ti 4GB GDDR6 512GB SSD 15.6 FHD 120Hz FreeDos Notebook",
     "category": "laptop"
   },
   {
-    "name": "Razer g57",
-    "price": 100,
-    "detail": "Oyuncu faresi",
+    "name": "MSI THIN GF63 12UCX-427XTR",
+    "price": 23109,
+    "detail": "i5-12450H 8GB DDR4 RTX2050 GDDR6 4GB 512GB SSD 15.6 FHD 144Hz FreeDos Notebook",
+    "category": "laptop"
+  },
+  {
+    "name": "Lenovo IdeaPad Gaming 3 16ARH7",
+    "price": 26499,
+    "detail": "Ryzen 7 6800H 16GB DDR5 RTX 3050 Ti 4GB GDDR6 512GB SSD 16 WUXGA 165Hz FreeDos Notebook",
+    "category": "laptop"
+  },
+  {
+    "name": "Logitech MK220",
+    "price": 561,
+    "detail": "Kablosuz Türkçe Klavye Mouse Set",
     "category": "ekipman"
   },
   {
-    "name": "RTX 3050 ti",
-    "price": 500,
-    "detail": "4gb ekran kartı",
+    "name": "CORSAIR HS35",
+    "price": 1186,
+    "detail": "STEREO Mavi Gaming Kulaklık",
+    "category": "ekipman"
+  },
+  {
+    "name": "Fifine K670B",
+    "price": 1593,
+    "detail": "USB Siyah Yayıncı - Podcast Mikrofonu",
+    "category": "ekipman"
+  },
+  {
+    "name": "Razer Kiyo X",
+    "price": 2367,
+    "detail": "1080p 30 FPS Webcam",
+    "category": "ekipman"
+  },
+  {
+    "name": "GIGABYTE GeForce GTX 1660 Ti",
+    "price": 11947,
+    "detail": "OC 6GB GDDR6 192 Bit Ekran Kartı",
     "category": "bileşen"
   },
   {
-    "name": "Windows 11 Pro",
-    "price": 200,
-    "detail": "Windows işletim sisteminin son sürümü",
+    "name": "ASUS TUF GAMING GeForce RTX 3060",
+    "price": 12235,
+    "detail": "OC V2 GDDR6 12GB 192 Bit LHR Ekran Kartı",
+    "category": "bileşen"
+  },
+  {
+    "name": "Intel Core i3 10100F",
+    "price": 1867,
+    "detail": "3.60GHz 6MB Önbellek 4 Çekirdek 1200 14nm İşlemci",
+    "category": "bileşen"
+  },
+  {
+    "name": "ASUS PRIME H510M-E",
+    "price": 1549,
+    "detail": "3200MHz(OC) DDR4 Soket 1200 M.2 HDMI DP VGA mATX Anakart",
+    "category": "bileşen"
+  },
+  {
+    "name": "AMD RYZEN 5 5600X",
+    "price": 4602,
+    "detail": "3.7GHz 32MB Önbellek 6 Çekirdek AM4 7nm İşlemci",
+    "category": "bileşen"
+  },
+  {
+    "name": "GSKILL 16GB (2x8GB) Ripjaws V Siyah",
+    "price": 1209,
+    "detail": "3600MHz CL18 DDR4 Dual Kit Ram",
+    "category": "bileşen"
+  },
+  {
+    "name": "Microsoft Windows 11 Home",
+    "price": 2961,
+    "detail": "Advanced Single Language 64Bit Türkçe Oem (Elektronik Lisans)",
+    "category": "yazılım"
+  },
+  {
+    "name": "Microsoft Office 2019",
+    "price": 2320,
+    "detail": "Home And Business 1 PC/MAC İngilizce Kutu",
+    "category": "yazılım"
+  },
+  {
+    "name": "KASPERSKY Internet Security",
+    "price": 743,
+    "detail": "Multi Device (3 Kullanıcı 1 Yıl)",
     "category": "yazılım"
   }
 ]
