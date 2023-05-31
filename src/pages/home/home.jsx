@@ -1,17 +1,15 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
-import db from "../../db/productsDb.json";
+// import { useNavigate } from "react-router-dom";
+// import db from "../../db/productsDb.json";
+import "../../style/home.css";
+import TopSale from "./topSale";
+import Category from "./category";
 
 const Home = () => {
-  const naviGate = useNavigate();
-  const gitUrunler = (categoryName) => {
-    naviGate(`products/${categoryName}`);
-  };
-  console.log(db);
   return (
-    <div>
-      <h1>Home</h1>
-      <button onClick={() => gitUrunler("elektronik")}>ürünler sayfası</button>
+    <div className="home">
+      <TopSale />
+      <Category />
     </div>
   );
 };

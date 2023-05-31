@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.home {
+  display: flex;
+  flex-direction: column;
+  padding-left: 5%;
+  padding-right: 5%;
+
+  background-color: rgb(236, 233, 233);
+  width: 100%;
+  height: 1000px;
+}
+.topSale {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+.topSale img {
+  width: 50%;
+  height: 100%;
+  background-size: cover;
+}
+.topSaleDetail {
+  width: 50%;
+}
+
+/*-------------------------------------*/
+.category {
+  width: 100%;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.category div {
+  width: 15%;
+  height: 120px;
+  border: 1px solid gray;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}

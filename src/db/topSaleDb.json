@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Monster abra a5",
+    "price": 1200,
+    "detail": "sadLaptopLaptopLaptopasdasdasdasdasdasdasdasdasdasdasdasdasdas",
+    "category": "Laptop"
+  },
+  {
+    "name": "Nikon c7",
+    "price": 600,
+    "detail": "sadNikonNikonNikonasdasdasdasdasdasdasdasdasdasdasdasdasdas",
+    "category": "Camera"
+  },
+  {
+    "name": "Nike air jordan",
+    "price": 200,
+    "detail": "sadasNikeNikeNikedasdasdasdasdasdasdasdasdasdasdasdasdas",
+    "category": "shoe"
+  }
+]
