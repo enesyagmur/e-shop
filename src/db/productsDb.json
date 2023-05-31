@@ -1,26 +1,32 @@
 [
   {
-    "name": "Iphone 14",
-    "price": 900,
-    "detail": "sadasdasdasdasdasdasdasdasdasdasdasdasdasdas",
-    "category": "phone"
+    "name": "Eco x7",
+    "price": 15000,
+    "detail": "Oyuncu bilgisayarı",
+    "category": "hazırsistem"
   },
   {
     "name": "Monster abra a5",
-    "price": 1200,
-    "detail": "sadLaptopLaptopLaptopasdasdasdasdasdasdasdasdasdasdasdasdasdas",
-    "category": "Laptop"
+    "price": 20000,
+    "detail": "Oyuncu laptopu",
+    "category": "laptop"
   },
   {
-    "name": "Nikon c7",
-    "price": 600,
-    "detail": "sadNikonNikonNikonasdasdasdasdasdasdasdasdasdasdasdasdasdas",
-    "category": "Camera"
+    "name": "Razer g57",
+    "price": 100,
+    "detail": "Oyuncu faresi",
+    "category": "ekipman"
   },
   {
-    "name": "Nike air jordan",
+    "name": "RTX 3050 ti",
+    "price": 500,
+    "detail": "4gb ekran kartı",
+    "category": "bileşen"
+  },
+  {
+    "name": "Windows 11 Pro",
     "price": 200,
-    "detail": "sadasNikeNikeNikedasdasdasdasdasdasdasdasdasdasdasdasdas",
-    "category": "shoe"
+    "detail": "Windows işletim sisteminin son sürümü",
+    "category": "yazılım"
   }
 ]

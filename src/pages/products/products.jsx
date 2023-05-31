@@ -1,17 +1,17 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 
 const Products = () => {
-  const naviGate = useNavigate();
-
-  const gitDetay = (productName) => {
-    naviGate(`/detail/${productName}`);
-  };
+  const categoryName = useParams();
+  console.log(categoryName.category);
+  // const naviGate = useNavigate();
+  // // const gitDetay = (productName) => {
+  // //   naviGate(`/detail/${productName}`);
+  // // };
 
   return (
     <div>
-      <h1>Products</h1>
-      <button onClick={() => gitDetay("iphone14")}>Ürün detayına git</button>
+      <h1>{categoryName.category}</h1>
     </div>
   );
 };

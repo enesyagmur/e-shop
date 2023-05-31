@@ -9,10 +9,10 @@ const Category = () => {
   };
   return (
     <div className="category">
-      <div onClick={() => goCategory("hazırsistemler")}>Hazır sistemler</div>
-      <div onClick={() => goCategory("laptoplar")}>Laptoplar</div>
-      <div onClick={() => goCategory("ekipmanlar")}>Ekipmanlar</div>
-      <div onClick={() => goCategory("bileşenler")}>Bileşenler</div>
+      <div onClick={() => goCategory("hazırsistem")}>Hazır sistemler</div>
+      <div onClick={() => goCategory("laptop")}>Laptoplar</div>
+      <div onClick={() => goCategory("ekipman")}>Ekipmanlar</div>
+      <div onClick={() => goCategory("bileşen")}>Bileşenler</div>
       <div onClick={() => goCategory("yazılım")}>Yazılım</div>
     </div>
   );

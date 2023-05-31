@@ -3,7 +3,6 @@ import topSaleDb from "../../db/topSaleDb.json";
 import "../../style/home.css";
 
 const TopSale = () => {
-  console.log(topSaleDb);
   return (
     <div className="topSale">
       <img src="https://w7.pngwing.com/pngs/60/414/png-transparent-iphone-14.png" />{" "}
