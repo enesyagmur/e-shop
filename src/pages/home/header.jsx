@@ -9,7 +9,7 @@ import { BsMouse2 } from "react-icons/bs";
 import { GrWindows } from "react-icons/gr";
 import { AiOutlineSmallDash } from "react-icons/ai";
 
-const TopSale = () => {
+const Header = () => {
   return (
     <div className="topSale">
       <div>
@@ -34,4 +34,4 @@ const TopSale = () => {
   );
 };
 
-export default TopSale;
+export default Header;

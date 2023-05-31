@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 import db from "../../db/productsDb.json";
 import "../../style/products.css";
 import SearchBar from "./searchBar";
@@ -7,7 +7,7 @@ import Filter from "./filter";
 
 const Products = () => {
   const [data, setData] = useState("");
-
+  const naviGate = useNavigate();
   const params = useParams();
   let category = params.category;
 
@@ -52,6 +52,10 @@ const Products = () => {
     }
   };
 
+  const goDetail = (name) => {
+    naviGate(`/detail/${name}`);
+  };
+
   return (
     <div className="products">
       <SearchBar sort={sort} search={search} />
@@ -64,7 +68,7 @@ const Products = () => {
             ? data.map((item) => (
                 <div className="product">
                   <img src={item.image} />
-                  <h3>{item.name}</h3>
+                  <h3 onClick={() => goDetail(item.name)}>{item.name}</h3>
 
                   <button>{item.price} TL</button>
                 </div>

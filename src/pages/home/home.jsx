@@ -1,14 +1,16 @@
 import "../../style/home.css";
-import TopSale from "./topSale";
+import Header from "./header";
 import Category from "./category";
 import NewProducts from "./newProduct";
+
 
 const Home = () => {
   return (
     <div className="home">
-      <TopSale />
+      <Header />
       <Category />
       <NewProducts />
+     
     </div>
   );
 };
