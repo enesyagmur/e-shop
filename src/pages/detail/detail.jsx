@@ -26,8 +26,13 @@ const Detail = () => {
   }, []);
 
   const naviGate = useNavigate();
+
   const goProducts = () => {
     naviGate(`/products/hepsi`);
+  };
+
+  const goBasket = () => {
+    naviGate(`/basket`);
   };
 
   return (
@@ -36,7 +41,7 @@ const Detail = () => {
         <button onClick={goProducts}>
           <BiArrowBack />
         </button>
-        <div className="basket">
+        <div className="basket" onClick={goBasket}>
           <p>{basket.length}</p>
           <RiShoppingBasketFill />
         </div>
