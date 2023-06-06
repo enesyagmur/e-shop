@@ -1,6 +1,7 @@
 import React from "react";
 import "../../style/detail.css";
-
+import { useDispatch, useSelector } from "react-redux";
+import { addProduct } from "../../redux/slice";
 
 const DetailProduct = ({
   productName,
@@ -8,13 +9,19 @@ const DetailProduct = ({
   productPrice,
   productImage,
 }) => {
-  
-
+  const basket = useSelector((state) => state.basket.basketProducts);
+  console.log(basket);
+  const dispatch = useDispatch();
   const addToBasket = (name, price, image) => {
-    // setbasket([...basket, { name: name, price: price, image: image }]);
-    
+    dispatch(
+      addProduct({
+        productName: name,
+        productPrice: price,
+        productImage: image,
+      })
+    );
   };
- 
+
   return (
     <div className="detailProduct">
       <img src={productImage} />

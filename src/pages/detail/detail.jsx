@@ -5,12 +5,15 @@ import "../../style/detail.css";
 import { RiShoppingBasketFill } from "react-icons/ri";
 import { BiArrowBack } from "react-icons/bi";
 import DetailProduct from "./DetailProduct";
+import { useSelector } from "react-redux";
 
 const Detail = () => {
   const [productName, setproductName] = useState();
   const [productDetail, setproductdetail] = useState();
   const [productPrice, setproductPrice] = useState();
   const [productImage, setproductImage] = useState();
+
+  const basket = useSelector((state) => state.basket.basketProducts);
 
   const params = useParams();
   const name = params.productName;
@@ -34,9 +37,11 @@ const Detail = () => {
           <BiArrowBack />
         </button>
         <div className="basket">
+          <p>{basket.length}</p>
           <RiShoppingBasketFill />
         </div>
       </div>
+
       <DetailProduct
         productName={productName}
         productDetail={productDetail}

@@ -29,6 +29,16 @@
   background-color: gray;
   color: white;
   font-size: 50px;
+  position: relative;
+}
+.basket p {
+  width: 15px;
+  height: 15px;
+  color: orange;
+  font-size: 15px;
+  position: absolute;
+  right: 13px;
+  top: 2px;
 }
 .detailProduct {
   width: 500px;
