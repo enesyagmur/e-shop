@@ -9,9 +9,12 @@ export const basketSlice = createSlice({
     addProduct: (state, action) => {
       state.basketProducts.push(action.payload);
     },
+    clearProduct: (state) => {
+      state.basketProducts = [];
+    },
   },
 });
 
-export const { addProduct } = basketSlice.actions;
+export const { addProduct, clearProduct } = basketSlice.actions;
 
 export default basketSlice.reducer;

@@ -31,13 +31,22 @@
   font-size: 50px;
   position: relative;
 }
-.basket p {
+.basketLenght {
   width: 15px;
   height: 15px;
   color: orange;
   font-size: 15px;
   position: absolute;
   right: 13px;
+  top: 2px;
+}
+.basketClear {
+  width: 15px;
+  height: 15px;
+  color: darkred;
+  font-size: 15px;
+  position: absolute;
+  left: 12px;
   top: 2px;
 }
 .detailProduct {

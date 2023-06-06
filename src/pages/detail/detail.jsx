@@ -5,7 +5,8 @@ import "../../style/detail.css";
 import { RiShoppingBasketFill } from "react-icons/ri";
 import { BiArrowBack } from "react-icons/bi";
 import DetailProduct from "./DetailProduct";
-import { useSelector } from "react-redux";
+import { useSelector, useDispatch } from "react-redux";
+import { clearProduct } from "../../redux/slice";
 
 const Detail = () => {
   const [productName, setproductName] = useState();
@@ -14,6 +15,7 @@ const Detail = () => {
   const [productImage, setproductImage] = useState();
 
   const basket = useSelector((state) => state.basket.basketProducts);
+  const dispatch = useDispatch();
 
   const params = useParams();
   const name = params.productName;
@@ -35,15 +37,23 @@ const Detail = () => {
     naviGate(`/basket`);
   };
 
+  const clearBasket = () =>{
+    dispatch(clearProduct())
+  }
+
   return (
     <div className="detail">
       <div className="detailHeader">
         <button onClick={goProducts}>
           <BiArrowBack />
         </button>
-        <div className="basket" onClick={goBasket}>
-          <p>{basket.length}</p>
-          <RiShoppingBasketFill />
+        <div className="basket">
+          <p className="basketLenght">{basket.length}</p>
+          <p className="basketClear" onClick={clearBasket} >x</p>
+
+          <i onClick={goBasket}>
+            <RiShoppingBasketFill />
+          </i>
         </div>
       </div>
 
