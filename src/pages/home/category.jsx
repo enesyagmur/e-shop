@@ -15,19 +15,19 @@ const Category = () => {
   };
   return (
     <div className="category">
-      <div onClick={() => goCategory("hazırsistem")}>
+      <div onClick={() => goCategory("Hazır Sistem")}>
         <CgBox />
       </div>
-      <div onClick={() => goCategory("laptop")}>
+      <div onClick={() => goCategory("Laptop")}>
         <BsLaptop />
       </div>
-      <div onClick={() => goCategory("ekipman")}>
+      <div onClick={() => goCategory("Ekipman")}>
         <BsMouse2 />
       </div>
-      <div onClick={() => goCategory("bileşen")}>
+      <div onClick={() => goCategory("Bileşen")}>
         <GiProcessor />
       </div>
-      <div onClick={() => goCategory("yazılım")}>
+      <div onClick={() => goCategory("Yazılım")}>
         <GrWindows />
       </div>
       <div onClick={() => goCategory("hepsi")}>

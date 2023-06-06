@@ -3,140 +3,140 @@
     "name": "PLANET-PHOENIX",
     "price": 19068,
     "detail": "Intel Core i3 13100F/GIGABYTE GeForce RTX 3060 WINDFORCE OC 12GB/16GB DDR4/500GB NVME M.2 SSD/Geforce RTX RayTracing PC",
-    "category": "hazırsistem",
+    "category": "Hazır Sistem",
     "image": "https://img-itopya.mncdn.com/cdn/250/yeni-proje-2023-05-02t095745060-c3ba75.jpg"
   },
   {
     "name": "DH-WOLF",
     "price": 21090,
     "detail": "Intel Core i3 13100F/ASUS GeForce RTX 3060 DUAL OC 8GB/16GB DDR4/480GB NVMe M.2 SSD/Geforce RTX RayTracing PC",
-    "category": "hazırsistem",
+    "category": "Hazır Sistem",
     "image": "https://img-itopya.mncdn.com/cdn/250/yeni-proje-20-5fa45c.jpg"
   },
   {
     "name": "VOK-BUDGET",
     "price": 17149,
     "detail": "Intel Core i3 12100F/ASUS Radeon RX 6600 DUAL 8GB/16GB DDR4/500GB NVME M.2 SSD/GAMING BILGISAYAR",
-    "category": "hazırsistem",
+    "category": "Hazır Sistem",
     "image": "https://img-itopya.mncdn.com/cdn/250/yeni-proje-2023-04-07t115319222-793048.jpg"
   },
   {
     "name": "TECHNOPAT-MAGIC",
     "price": 21269,
     "detail": "Intel Core i3 13100F/ASUS Radeon RX 6650 XT DUAL 8GB OC/16GB DDR4/1TB NVME M.2 SSD/GAMING BILGISAYAR",
-    "category": "hazırsistem",
+    "category": "Hazır Sistem",
     "image": "https://img-itopya.mncdn.com/cdn/250/yeni-proje-2023-03-01t122258215-b403ad.jpg"
   },
   {
     "name": "Lenovo IdeaPad Gaming 3 15ARH7",
     "price": 21499,
     "detail": "Ryzen 5 6600H 16GB DDR5 RTX 3050 Ti 4GB GDDR6 512GB SSD 15.6 FHD 120Hz FreeDos Notebook",
-    "category": "laptop",
+    "category": "Laptop",
     "image": "https://img-itopya.mncdn.com/cdn/250/yeni-proje-2022-12-05t162507378-a8cc11.jpg"
   },
   {
     "name": "MSI THIN GF63 12UCX-427XTR",
     "price": 23109,
     "detail": "i5-12450H 8GB DDR4 RTX2050 GDDR6 4GB 512GB SSD 15.6 FHD 144Hz FreeDos Notebook",
-    "category": "laptop",
+    "category": "Laptop",
     "image": "https://img-itopya.mncdn.com/cdn/250/yeni-proje-2023-05-15t141925570-9f93b2.jpg"
   },
   {
     "name": "MSI GF63 THIN 11UC-616XTR",
     "price": 28858,
     "detail": "I7-11800H 8GB DDR4 RTX3050 GDDR6 4GB 512GB SSD 15.6 FHD DOS Notebook",
-    "category": "laptop",
+    "category": "Laptop",
     "image": "https://img-itopya.mncdn.com/cdn/250/1-c19f36.jpg"
   },
   {
     "name": "Logitech MK220",
     "price": 561,
     "detail": "Kablosuz Türkçe Klavye Mouse Set",
-    "category": "ekipman",
+    "category": "Ekipman",
     "image": "https://img-itopya.mncdn.com/cdn/250/logitech-mk850-kablosuz-turkce-q-klavye-mouse-set-4-52cdff.jpg"
   },
   {
     "name": "CORSAIR HS35",
     "price": 1186,
     "detail": "STEREO Siyah Gaming Kulaklık",
-    "category": "ekipman",
+    "category": "Ekipman",
     "image": "https://img-itopya.mncdn.com/cdn/250/yeni-proje-2023-04-10t115256848-0d6736.jpg"
   },
   {
     "name": "Fifine K670B",
     "price": 1593,
     "detail": "USB Siyah Yayıncı - Podcast Mikrofonu",
-    "category": "ekipman",
+    "category": "Ekipman",
     "image": "https://img-itopya.mncdn.com/cdn/250/yeni-proje-2023-04-28t113009335-a795dd.jpg"
   },
   {
     "name": "Razer Kiyo X",
     "price": 2367,
     "detail": "1080p 30 FPS Webcam",
-    "category": "ekipman",
+    "category": "Ekipman",
     "image": "https://img-itopya.mncdn.com/cdn/250/yeni-proje-98-911660.jpg"
   },
   {
     "name": "GIGABYTE GeForce GTX 1660 Ti",
     "price": 11947,
     "detail": "OC 6GB GDDR6 192 Bit Ekran Kartı",
-    "category": "bileşen",
+    "category": "Bileşen",
     "image": "https://img-itopya.mncdn.com/cdn/250/gigabyte-geforce-gtx1660-ti-oc-6gb-gddr6-192bit-dx12-nvidia-ekran-karti-7-acc67a.jpg"
   },
   {
     "name": "ASUS TUF GAMING GeForce RTX 3060",
     "price": 12235,
     "detail": "OC V2 GDDR6 12GB 192 Bit LHR Ekran Kartı",
-    "category": "bileşen",
+    "category": "Bileşen",
     "image": "https://img-itopya.mncdn.com/cdn/350/yeni-proje-2023-04-28t142936675-ae7c30.jpg"
   },
   {
     "name": "Intel Core i3 10100F",
     "price": 1867,
     "detail": "3.60GHz 6MB Önbellek 4 Çekirdek 1200 14nm İşlemci",
-    "category": "bileşen",
+    "category": "Bileşen",
     "image": "https://img-itopya.mncdn.com/cdn/350/intel-core-i3-10100f-3-60ghz-6mb-onbellek-4-cekirdek-1200-14nm-islemci-d0b796.jpg"
   },
   {
     "name": "ASUS PRIME H510M-E",
     "price": 1549,
     "detail": "3200MHz(OC) DDR4 Soket 1200 M.2 HDMI DP VGA mATX Anakart",
-    "category": "bileşen",
+    "category": "Bileşen",
     "image": "https://img-itopya.mncdn.com/cdn/350/asus-prime-h510m-e-3200-oc-mhz-ddr4-soket-1200-m-2-hdmi-dp-vga-matx-anakart-9-a15ce7.jpg"
   },
   {
     "name": "AMD RYZEN 5 5600X",
     "price": 4602,
     "detail": "3.7GHz 32MB Önbellek 6 Çekirdek AM4 7nm İşlemci",
-    "category": "bileşen",
+    "category": "Bileşen",
     "image": "https://img-itopya.mncdn.com/cdn/350/yeni-proje-2022-08-25t134901352-39c1f1.jpg"
   },
   {
     "name": "GSKILL 16GB (2x8GB) Ripjaws V Siyah",
     "price": 1209,
     "detail": "3600MHz CL18 DDR4 Dual Kit Ram",
-    "category": "bileşen",
+    "category": "Bileşen",
     "image": "https://img-itopya.mncdn.com/cdn/350/yeni-proje-2023-01-24t154125591-20d8e8.jpg"
   },
   {
     "name": "Microsoft Windows 11 Home",
     "price": 2961,
     "detail": "Advanced Single Language 64Bit Türkçe Oem (Elektronik Lisans)",
-    "category": "yazılım",
+    "category": "Yazılım",
     "image": "https://img-itopya.mncdn.com/cdn/250/yeni-proje-2021-11-23t120419240-d57609-423a0b.jpg"
   },
   {
     "name": "Microsoft Office 2019",
     "price": 2320,
     "detail": "Home And Business 1 PC/MAC İngilizce Kutu",
-    "category": "yazılım",
+    "category": "Yazılım",
     "image": "https://img-itopya.mncdn.com/cdn/250/mac-ingilizce-kutu-dba2f4.jpg"
   },
   {
     "name": "KASPERSKY Internet Security",
     "price": 743,
     "detail": "Multi Device (3 Kullanıcı 1 Yıl)",
-    "category": "yazılım",
+    "category": "Yazılım",
     "image": "https://img-itopya.mncdn.com/cdn/250/kaspersky-internet-security-multi-device-3-kullanici-1-yil--75c05b.jpg"
   }
 ]

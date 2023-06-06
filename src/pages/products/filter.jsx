@@ -4,12 +4,12 @@ import "../../style/products.css";
 const Filter = ({ filtered }) => {
   return (
     <div className="filter">
-      <button onClick={() => filtered("hazırsistem")}>Hazır sistemler</button>
-      <button onClick={() => filtered("laptop")}>Laptoplar</button>
-      <button onClick={() => filtered("ekipman")}>Ekipmanlar</button>
-      <button onClick={() => filtered("bileşen")}>Bileşenler</button>
-      <button onClick={() => filtered("yazılım")}>Yazılım</button>
-      <button onClick={() => filtered("hepsi")}>Tüm ürünler</button>
+      <button onClick={() => filtered("Hazır Sistem")}>Hazır sistemler</button>
+      <button onClick={() => filtered("Laptop")}>Laptoplar</button>
+      <button onClick={() => filtered("Ekipman")}>Ekipmanlar</button>
+      <button onClick={() => filtered("Bileşen")}>Bileşenler</button>
+      <button onClick={() => filtered("Yazılım")}>Yazılım</button>
+      <button onClick={() => filtered("Hepsi")}>Tüm ürünler</button>
     </div>
   );
 };

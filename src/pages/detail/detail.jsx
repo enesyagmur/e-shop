@@ -4,6 +4,7 @@ import { useNavigate, useParams } from "react-router-dom";
 import "../../style/detail.css";
 import { RiShoppingBasketFill } from "react-icons/ri";
 import { BiArrowBack } from "react-icons/bi";
+import DetailProduct from "./DetailProduct";
 
 const Detail = () => {
   const [productName, setproductName] = useState();
@@ -36,12 +37,12 @@ const Detail = () => {
           <RiShoppingBasketFill />
         </div>
       </div>
-      <div className="detailProduct">
-        <img src={productImage} />
-        <h5>{productName}</h5>
-        <p>{productDetail}</p>
-        <button>{productPrice} TL</button>
-      </div>
+      <DetailProduct
+        productName={productName}
+        productDetail={productDetail}
+        productPrice={productPrice}
+        productImage={productImage}
+      />
     </div>
   );
 };
