@@ -9,7 +9,7 @@
 }
 .basketProducts {
   width: 40%;
- flex-direction: column;
+  flex-direction: column;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -24,8 +24,22 @@
   align-items: center;
   justify-content: space-evenly;
   border: 1px solid gray;
-  
 }
 .basketProduct img {
   height: 100px;
+}
+.basketProduct button {
+  padding: 7px;
+  background-color: white;
+  border: 1px solid red;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.basketProduct button:hover {
+  border: 1px solid rgb(238, 57, 57);
+  color: white;
+  background-color: rgb(238, 57, 57);
 }

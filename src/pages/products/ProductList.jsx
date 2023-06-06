@@ -12,7 +12,7 @@ const ProductList = ({ data }) => {
       {data
         ? data.map((item) => (
             <div className="product">
-              <img src={item.image} />
+              <img src={item.image} onClick={() => goDetail(item.name)} />
               <h3 onClick={() => goDetail(item.name)}>{item.name}</h3>
               <p>{item.category}</p>
               <h4>{item.price} TL</h4>
