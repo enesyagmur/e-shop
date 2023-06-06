@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import React from "react";
 import "../../style/detail.css";
 import { useDispatch, useSelector } from "react-redux";

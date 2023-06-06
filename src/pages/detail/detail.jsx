@@ -25,6 +25,7 @@ const Detail = () => {
     setproductdetail(newProduct[0].detail);
     setproductPrice(newProduct[0].price);
     setproductImage(newProduct[0].image);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const naviGate = useNavigate();

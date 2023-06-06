@@ -9,11 +9,7 @@ import { BsMouse2 } from "react-icons/bs";
 import { GrWindows } from "react-icons/gr";
 
 const Header = () => {
-  // const basket = useSelector((state) => state.basket.basketProducts);
-  // const dispatch = useDispatch();
-  // const change = () => {
-  //   dispatch(addProduct("oktay"));
-  // };
+
   return (
     <div className="topSale">
       <div>

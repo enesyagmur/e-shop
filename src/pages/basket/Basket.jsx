@@ -1,4 +1,5 @@
-import React, { useEffect, useState } from "react";
+/* eslint-disable jsx-a11y/alt-text */
+
 import "../../style/sepet.css";
 import { useSelector, useDispatch } from "react-redux";
 import { deleteProduct } from "../../redux/slice";
@@ -16,7 +17,7 @@ const Basket = () => {
       <div className="basketProducts">
         {basket
           ? basket.map((item) => (
-              <div className="basketProduct">
+              <div key={item.id} className="basketProduct">
                 <img src={item.productImage} />
                 <p>{item.productName}</p>
                 <p>{item.productPrice} TL</p>

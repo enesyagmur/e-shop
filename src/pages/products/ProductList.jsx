@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 import React from "react";
 import { useNavigate } from "react-router-dom";
 
@@ -11,7 +12,7 @@ const ProductList = ({ data }) => {
     <div className="productsList">
       {data
         ? data.map((item) => (
-            <div className="product">
+            <div key={Math.random()} className="product">
               <img src={item.image} onClick={() => goDetail(item.name)} />
               <h3 onClick={() => goDetail(item.name)}>{item.name}</h3>
               <p>{item.category}</p>

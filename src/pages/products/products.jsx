@@ -19,6 +19,7 @@ const Products = () => {
     } else {
       setData(db);
     }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const categoryFilter = (categoryName) => {
@@ -58,7 +59,6 @@ const Products = () => {
       <SearchBar sort={sort} search={search} />
 
       <main>
-        {" "}
         {category === "hepsi" ? <Filter filtered={categoryFilter} /> : null}
         <ProductList data={data} />
       </main>
