@@ -11,7 +11,7 @@ export const basketSlice = createSlice({
     },
     deleteProduct: (state, action) => {
       const newBasket = state.basketProducts.filter(
-        (item) => item.productName !== action.payload
+        (item) => item.id !== action.payload
       );
       state.basketProducts = [...newBasket];
     },

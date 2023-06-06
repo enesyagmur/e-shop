@@ -18,6 +18,7 @@ const DetailProduct = ({
         productName: name,
         productPrice: price,
         productImage: image,
+        id: Math.random(),
       })
     );
   };
