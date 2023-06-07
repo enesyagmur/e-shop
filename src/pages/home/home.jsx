@@ -1,8 +1,8 @@
 import "../../style/home.css";
-import Header from "./header";
 import Category from "./category";
 import NewProducts from "./newProduct";
-import Footer from "./footer";
+import Header from "../../components/header";
+import Footer from "../../components/footer";
 
 const Home = () => {
   return (

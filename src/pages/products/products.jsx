@@ -5,8 +5,8 @@ import "../../style/products.css";
 import SearchBar from "./searchBar";
 import Filter from "./filter";
 import ProductList from "./ProductList";
-import Header from "../home/header";
-import Footer from "../home/footer";
+import Header from "../../components/header";
+import Footer from "../../components/footer";
 
 const Products = () => {
   const [data, setData] = useState("");

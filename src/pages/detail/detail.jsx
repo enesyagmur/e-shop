@@ -3,10 +3,11 @@ import db from "../../db/productsDb.json";
 import { useNavigate, useParams } from "react-router-dom";
 import "../../style/detail.css";
 import { RiShoppingBasketFill } from "react-icons/ri";
-import { BiArrowBack } from "react-icons/bi";
+
 import DetailProduct from "./DetailProduct";
 import { useSelector, useDispatch } from "react-redux";
-import Header from "../products/header";
+import Header from "../../components/header";
+import Footer from "../../components/footer";
 
 const Detail = () => {
   const [productName, setproductName] = useState();
@@ -30,16 +31,8 @@ const Detail = () => {
 
   const naviGate = useNavigate();
 
-  const goProducts = () => {
-    naviGate(`/products/hepsi`);
-  };
-
   const goBasket = () => {
     naviGate(`/basket`);
-  };
-
-  const goHome = () => {
-    naviGate(`/`);
   };
 
   return (
@@ -59,6 +52,7 @@ const Detail = () => {
         productPrice={productPrice}
         productImage={productImage}
       />
+      <Footer />
     </div>
   );
 };

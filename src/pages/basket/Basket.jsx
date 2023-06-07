@@ -3,6 +3,8 @@
 import "../../style/sepet.css";
 import { useSelector, useDispatch } from "react-redux";
 import { deleteProduct } from "../../redux/slice";
+import Header from "../../components/header";
+import Footer from "../../components/footer";
 
 const Basket = () => {
   const basket = useSelector((state) => state.basket.basketProducts);
@@ -14,6 +16,7 @@ const Basket = () => {
 
   return (
     <div className="sepet">
+      <Header />
       <div className="basketProducts">
         {basket
           ? basket.map((item) => (
@@ -25,7 +28,11 @@ const Basket = () => {
               </div>
             ))
           : null}
+        <div className="basketFooter">
+          <button>Temizle</button> <p>{basket.length}</p>
+        </div>
       </div>
+      <Footer />
     </div>
   );
 };
