@@ -7,7 +7,7 @@
 
 .topSale {
   width: 100%;
-  height: 200px;
+  height: 160px;
   display: flex;
   background-color: var(--dark);
   font-size: 40px;
@@ -19,7 +19,7 @@
 .topSale h1 {
   padding: 10px;
   cursor: pointer;
-  background-color: var(--light);
+  background-color: var(--productBg);
   transition: all 0.4s;
   color: var(--dark);
   width: 600px;
@@ -51,5 +51,5 @@
   font-size: 15px;
   position: absolute;
   right: 18px;
-  top: 70px;
+  top: 50px;
 }

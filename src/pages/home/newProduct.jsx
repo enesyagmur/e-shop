@@ -12,29 +12,9 @@ const NewProducts = () => {
     <div className="newProducts">
       <div className="bestSale">
         <div key={Math.random()}>
-          <img src={db[2].image} />
+          <img src={db[2].image} onClick={() => goDetail(db[2].name)} />
           <h5 onClick={() => goDetail(db[2].name)}>{db[2].name}</h5>
           <button>{db[2].price} TL</button>
-        </div>
-        <div key={Math.random()}>
-          <img src={db[5].image} onClick={() => goDetail(db[5].name)} />
-          <h5 onClick={() => goDetail(db[5].name)}>{db[5].name}</h5>
-          <button>{db[5].price} TL</button>
-        </div>
-        <div key={Math.random()}>
-          <img src={db[8].image} onClick={() => goDetail(db[8].name)} />
-          <h5 onClick={() => goDetail(db[8].name)}>{db[8].name}</h5>
-          <button>{db[8].price} TL</button>
-        </div>
-        <div key={Math.random()}>
-          <img src={db[11].image} onClick={() => goDetail(db[11].name)} />
-          <h5 onClick={() => goDetail(db[11].name)}>{db[11].name}</h5>
-          <button>{db[11].price} TL</button>
-        </div>
-        <div key={Math.random()}>
-          <img src={db[3].image} />
-          <h5 onClick={() => goDetail(db[3].name)}>{db[3].name}</h5>
-          <button>{db[3].price} TL</button>
         </div>
         <div key={Math.random()}>
           <img src={db[6].image} onClick={() => goDetail(db[6].name)} />
@@ -42,24 +22,44 @@ const NewProducts = () => {
           <button>{db[6].price} TL</button>
         </div>
         <div key={Math.random()}>
-          <img src={db[9].image} onClick={() => goDetail(db[9].name)} />
-          <h5 onClick={() => goDetail(db[9].name)}>{db[9].name}</h5>
-          <button>{db[9].price} TL</button>
+          <img src={db[10].image} onClick={() => goDetail(db[10].name)} />
+          <h5 onClick={() => goDetail(db[10].name)}>{db[10].name}</h5>
+          <button>{db[10].price} TL</button>
         </div>
         <div key={Math.random()}>
-          <img src={db[12].image} onClick={() => goDetail(db[12].name)} />
-          <h5 onClick={() => goDetail(db[12].name)}>{db[12].name}</h5>
-          <button>{db[12].price} TL</button>
+          <img src={db[14].image} onClick={() => goDetail(db[14].name)} />
+          <h5 onClick={() => goDetail(db[14].name)}>{db[11].name}</h5>
+          <button>{db[14].price} TL</button>
         </div>
         <div key={Math.random()}>
-          <img src={db[4].image} onClick={() => goDetail(db[4].name)} />
-          <h5 onClick={() => goDetail(db[4].name)}>{db[4].name}</h5>
-          <button>{db[4].price} TL</button>
+          <img src={db[16].image} onClick={() => goDetail(db[16].name)} />
+          <h5 onClick={() => goDetail(db[16].name)}>{db[16].name}</h5>
+          <button>{db[16].price} TL</button>
         </div>
         <div key={Math.random()}>
-          <img src={db[7].image} />
-          <h5 onClick={() => goDetail(db[7].name)}>{db[7].name}</h5>
-          <button>{db[7].price} TL</button>
+          <img src={db[20].image} onClick={() => goDetail(db[20].name)} />
+          <h5 onClick={() => goDetail(db[20].name)}>{db[20].name}</h5>
+          <button>{db[20].price} TL</button>
+        </div>
+        <div key={Math.random()}>
+          <img src={db[24].image} onClick={() => goDetail(db[24].name)} />
+          <h5 onClick={() => goDetail(db[24].name)}>{db[24].name}</h5>
+          <button>{db[24].price} TL</button>
+        </div>
+        <div key={Math.random()}>
+          <img src={db[28].image} onClick={() => goDetail(db[28].name)} />
+          <h5 onClick={() => goDetail(db[28].name)}>{db[12].name}</h5>
+          <button>{db[28].price} TL</button>
+        </div>
+        <div key={Math.random()}>
+          <img src={db[32].image} onClick={() => goDetail(db[32].name)} />
+          <h5 onClick={() => goDetail(db[32].name)}>{db[32].name}</h5>
+          <button>{db[32].price} TL</button>
+        </div>
+        <div key={Math.random()}>
+          <img src={db[35].image} onClick={() => goDetail(db[35].name)} />
+          <h5 onClick={() => goDetail(db[35].name)}>{db[35].name}</h5>
+          <button>{db[35].price} TL</button>
         </div>
       </div>
     </div>

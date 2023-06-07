@@ -17,7 +17,9 @@ const Detail = () => {
   const params = useParams();
   const name = params.productName;
   useEffect(() => {
-    let newProduct = db.filter((item) => item.name === name);
+    let newProduct = db.filter(
+      (item) => item.name.toLowerCase() === name.toLowerCase()
+    );
     setproductName(newProduct[0].name);
     setproductdetail(newProduct[0].detail);
     setproductPrice(newProduct[0].price);

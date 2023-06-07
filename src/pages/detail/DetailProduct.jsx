@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React from "react";
 import "../../style/detail.css";
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
 import { addProduct } from "../../redux/slice";
 
 const DetailProduct = ({
@@ -10,8 +10,6 @@ const DetailProduct = ({
   productPrice,
   productImage,
 }) => {
-  const basket = useSelector((state) => state.basket.basketProducts);
-  console.log(basket);
   const dispatch = useDispatch();
   const addToBasket = (name, price, image) => {
     dispatch(

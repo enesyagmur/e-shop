@@ -33,7 +33,7 @@ const Basket = () => {
             ))
           : null}
         <div className="basketFooter">
-          <button onClick={clear}>Temizle</button> <p>{basket.length}</p>
+          <button onClick={clear}>Temizle</button>
         </div>
       </div>
       <Footer />
