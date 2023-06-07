@@ -56,7 +56,7 @@ main {
 }
 .product {
   width: 250px;
-  height: 400px;
+  height: 350px;
   background-color: var(--productBg);
   margin: 20px;
   display: flex;
@@ -65,12 +65,12 @@ main {
   justify-content: space-evenly;
   border: 1px solid var(--productBg);
   border-radius: 10px;
-  padding-top: 10px;
-  padding-bottom: 20px;
+  padding-top: 5px;
+  padding-bottom: 10px;
 }
 .product img {
   width: 70%;
-  height: 35%;
+  height: 45%;
   background-size: cover;
   transition: all 0.3s;
   margin-bottom: 40px;

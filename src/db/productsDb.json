@@ -1,5 +1,47 @@
 [
   {
+    "name": "Lenovo IdeaPad Gaming 3 15ARH7",
+    "price": 21499,
+    "detail": "Ryzen 5 6600H 16GB DDR5 RTX 3050 Ti 4GB GDDR6 512GB SSD 15.6 FHD 120Hz FreeDos Notebook",
+    "category": "Laptop",
+    "image": "https://img-itopya.mncdn.com/cdn/250/yeni-proje-2022-12-05t162507378-a8cc11.jpg"
+  },
+  {
+    "name": "MSI THIN GF63 12UCX-427XTR",
+    "price": 23109,
+    "detail": "i5-12450H 8GB DDR4 RTX2050 GDDR6 4GB 512GB SSD 15.6 FHD 144Hz FreeDos Notebook",
+    "category": "Laptop",
+    "image": "https://img-itopya.mncdn.com/cdn/250/yeni-proje-2023-05-15t141925570-9f93b2.jpg"
+  },
+  {
+    "name": "MSI GF63 THIN 11UC-616XTR",
+    "price": 28858,
+    "detail": "I7-11800H 8GB DDR4 RTX3050 GDDR6 4GB 512GB SSD 15.6 FHD DOS Notebook",
+    "category": "Laptop",
+    "image": "https://img-itopya.mncdn.com/cdn/250/1-c19f36.jpg"
+  },
+  {
+    "name": "GIGABYTE AORUS 7 9MF",
+    "price": 39499,
+    "detail": "i5-12500H 16GB DDR4 RTX4050 GDDR6 6GB 512GB SSD 17.3 FHD 360Hz FreeDos Gaming Notebook",
+    "category": "Laptop",
+    "image": "https://img-itopya.mncdn.com/cdn/250/yeni-proje-2023-05-25t103446285-eaf1cd.jpg"
+  },
+  {
+    "name": "MSI CREATOR PRO X17HX A13VKS-211TR",
+    "price": 128159,
+    "detail": "i9-13980HX 64GB DDR5 RTX3500 GDDR6 12GB 4TB SSD 17.3 UHD 144Hz W11P Notebook",
+    "category": "Laptop",
+    "image": "https://img-itopya.mncdn.com/cdn/250/yeni-proje-2023-05-15t164618232-f600d3.jpg"
+  },
+  {
+    "name": "HP 250 G9 6Q8M7ES",
+    "price": 17902,
+    "detail": " i5-1235U 8GB 256GB SSD MX550 2GB GDDR6 15.6 Full HD FreeDos Notebook",
+    "category": "Laptop",
+    "image": "https://img-itopya.mncdn.com/cdn/250/yeni-proje-2023-03-16t154841545-cb0184.jpg"
+  },
+  {
     "name": "PLANET-PHOENIX",
     "price": 19068,
     "detail": "Intel Core i3 13100F/GIGABYTE GeForce RTX 3060 WINDFORCE OC 12GB/16GB DDR4/500GB NVME M.2 SSD/Geforce RTX RayTracing PC",
@@ -28,26 +70,27 @@
     "image": "https://img-itopya.mncdn.com/cdn/250/yeni-proje-2023-03-01t122258215-b403ad.jpg"
   },
   {
-    "name": "Lenovo IdeaPad Gaming 3 15ARH7",
-    "price": 21499,
-    "detail": "Ryzen 5 6600H 16GB DDR5 RTX 3050 Ti 4GB GDDR6 512GB SSD 15.6 FHD 120Hz FreeDos Notebook",
-    "category": "Laptop",
-    "image": "https://img-itopya.mncdn.com/cdn/250/yeni-proje-2022-12-05t162507378-a8cc11.jpg"
+    "name": "WTCN-ENTRY",
+    "price": 15437,
+    "detail": "AMD Ryzen 5 5500/MSI GeForce GTX 1650 D6 VENTUS XS OC V1 4GB/16GB DDR4/500GB M.2 NVMe SSD/Geforce Espor PC",
+    "category": "Hazır Sistem",
+    "image": "https://img-itopya.mncdn.com/cdn/250/power-boost-vk-p3301b-500w-mesh-panel-usb-3-0-mid-tower-kasa-6-4d344a.jpg"
   },
   {
-    "name": "MSI THIN GF63 12UCX-427XTR",
-    "price": 23109,
-    "detail": "i5-12450H 8GB DDR4 RTX2050 GDDR6 4GB 512GB SSD 15.6 FHD 144Hz FreeDos Notebook",
-    "category": "Laptop",
-    "image": "https://img-itopya.mncdn.com/cdn/250/yeni-proje-2023-05-15t141925570-9f93b2.jpg"
+    "name": "CHARMQUELL-FEALTY",
+    "price": 22499,
+    "detail": "Intel Core i3 13100F/MSI GeForce RTX 3060 Ti GAMING X TRIO 8GB/16GB DDR4/500GB NVME M.2 SSD/Geforce RTX RayTracing PC",
+    "category": "Hazır Sistem",
+    "image": "https://img-itopya.mncdn.com/cdn/250/yeni-proje-2023-03-01t121930074-1d2f1d.jpg"
   },
   {
-    "name": "MSI GF63 THIN 11UC-616XTR",
-    "price": 28858,
-    "detail": "I7-11800H 8GB DDR4 RTX3050 GDDR6 4GB 512GB SSD 15.6 FHD DOS Notebook",
-    "category": "Laptop",
-    "image": "https://img-itopya.mncdn.com/cdn/250/1-c19f36.jpg"
+    "name": "MENTOR-FOX",
+    "price": 22207,
+    "detail": "Intel Core i3 12100F/ASUS GeForce RTX 3060 DUAL V2 12GB/16GB DDR4/512GB M.2 NVMe SSD/Geforce RTX RayTracing PC",
+    "category": "Hazır Sistem",
+    "image": "https://img-itopya.mncdn.com/cdn/250/yeni-proje-2023-05-08t152957388-d001ff.jpg"
   },
+
   {
     "name": "Logitech MK220",
     "price": 561,
@@ -70,11 +113,39 @@
     "image": "https://img-itopya.mncdn.com/cdn/250/yeni-proje-2023-04-28t113009335-a795dd.jpg"
   },
   {
+    "name": "Razer Iskur XL",
+    "price": 16989,
+    "detail": "Fabric Gri 4D Oyuncu Koltuğu",
+    "category": "Ekipman",
+    "image": "https://img-itopya.mncdn.com/cdn/350/yeni-proje-2023-04-11t150252029-527130.jpg"
+  },
+  {
     "name": "Razer Kiyo X",
     "price": 2367,
     "detail": "1080p 30 FPS Webcam",
     "category": "Ekipman",
     "image": "https://img-itopya.mncdn.com/cdn/250/yeni-proje-98-911660.jpg"
+  },
+  {
+    "name": "Logitech Z150",
+    "price": 958,
+    "detail": "2.0 Siyah Hoparlör",
+    "category": "Ekipman",
+    "image": "https://img-itopya.mncdn.com/cdn/250/logitech-z150-2-0-siyah-hoparlor-5-4302c2.jpg"
+  },
+  {
+    "name": "Razer Blackwidow V3",
+    "price": 2652,
+    "detail": "Green Switch Türkçe RGB Mekanik Gaming Klavye",
+    "category": "Ekipman",
+    "image": "https://img-itopya.mncdn.com/cdn/250/razer-blackwidow-v3-green-switch-turkce-rgb-mekanik-gaming-klavye-3e0d30.jpg"
+  },
+  {
+    "name": "Razer Basilisk X",
+    "price": 1428,
+    "detail": "HyperSpeed Kablosuz Gaming Mouse",
+    "category": "Ekipman",
+    "image": "https://img-itopya.mncdn.com/cdn/250/razer-basilisk-x-hyperspeed-wireless-gaming-mouse-a5467a.jpg"
   },
   {
     "name": "GIGABYTE GeForce GTX 1660 Ti",
@@ -98,12 +169,27 @@
     "image": "https://img-itopya.mncdn.com/cdn/350/intel-core-i3-10100f-3-60ghz-6mb-onbellek-4-cekirdek-1200-14nm-islemci-d0b796.jpg"
   },
   {
-    "name": "ASUS PRIME H510M-E",
-    "price": 1549,
-    "detail": "3200MHz(OC) DDR4 Soket 1200 M.2 HDMI DP VGA mATX Anakart",
+    "name": "Intel Core i7 13700F",
+    "price": 11242,
+    "detail": "2.1GHz 30MB Önbellek 16 Çekirdek 1700 10nm İşlemci",
     "category": "Bileşen",
-    "image": "https://img-itopya.mncdn.com/cdn/350/asus-prime-h510m-e-3200-oc-mhz-ddr4-soket-1200-m-2-hdmi-dp-vga-matx-anakart-9-a15ce7.jpg"
+    "image": "https://img-itopya.mncdn.com/cdn/250/yeni-proje-2023-01-04t140015706-0d7e15.jpg"
   },
+  {
+    "name": "AMD Ryzen 5 5600G",
+    "price": 4015,
+    "detail": "3.9GHz 16MB Önbellek 6 Çekirdek AM4 7nm İşlemci",
+    "category": "Bileşen",
+    "image": "https://img-itopya.mncdn.com/cdn/250/yeni-proje-2022-08-25t131724397-c923ac.jpg"
+  },
+  {
+    "name": "AMD RYZEN 7 5700G",
+    "price": 6163,
+    "detail": "3.8GHz 16MB Önbellek 8 Çekirdek AM4 7nm İşlemci",
+    "category": "Bileşen",
+    "image": "https://img-itopya.mncdn.com/cdn/250/yeni-proje-2022-08-25t152012964-cf8930.jpg"
+  },
+
   {
     "name": "AMD RYZEN 5 5600X",
     "price": 4602,
@@ -112,11 +198,46 @@
     "image": "https://img-itopya.mncdn.com/cdn/350/yeni-proje-2022-08-25t134901352-39c1f1.jpg"
   },
   {
+    "name": "ASUS PRIME H510M-E",
+    "price": 1549,
+    "detail": "3200MHz(OC) DDR4 Soket 1200 M.2 HDMI DP VGA mATX Anakart",
+    "category": "Bileşen",
+    "image": "https://img-itopya.mncdn.com/cdn/350/asus-prime-h510m-e-3200-oc-mhz-ddr4-soket-1200-m-2-hdmi-dp-vga-matx-anakart-9-a15ce7.jpg"
+  },
+  {
     "name": "GSKILL 16GB (2x8GB) Ripjaws V Siyah",
     "price": 1209,
     "detail": "3600MHz CL18 DDR4 Dual Kit Ram",
     "category": "Bileşen",
     "image": "https://img-itopya.mncdn.com/cdn/350/yeni-proje-2023-01-24t154125591-20d8e8.jpg"
+  },
+  {
+    "name": "POWER BOOST FURY",
+    "price": 1445,
+    "detail": "750W 80+ 120mm Fanlı PSU",
+    "category": "Bileşen",
+    "image": "https://img-itopya.mncdn.com/cdn/250/power-boost-fury-750w-80-120mm-fanli-psu-d8bbd2.jpg"
+  },
+  {
+    "name": "KIOXIA EXCERIA ",
+    "price": 851,
+    "detail": "500GB NVMe M.2 SSD (1700MB Okuma / 1600MB Yazma)",
+    "category": "Bileşen",
+    "image": "https://img-itopya.mncdn.com/cdn/250/1200mb-yazma-83-83775c.jpg"
+  },
+  {
+    "name": "SAMSUNG 500GB 970 EVO Plus",
+    "price": 1260,
+    "detail": "NVMe M.2 SSD (3500MB Okuma / 3200MB Yazma)",
+    "category": "Bileşen",
+    "image": "https://img-itopya.mncdn.com/cdn/250/3200mb-yazma-24-86a885.jpg"
+  },
+  {
+    "name": "Microsoft Windows 11 Pro",
+    "price": 4965,
+    "detail": "Pro 64Bit Türkçe Oem",
+    "category": "Yazılım",
+    "image": "https://img-itopya.mncdn.com/cdn/250/yeni-proje-2021-11-23t120905838-97619d.jpg"
   },
   {
     "name": "Microsoft Windows 11 Home",
