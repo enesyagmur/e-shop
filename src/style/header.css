@@ -1,22 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+}
+
 .topSale {
-    width: 100%;
-    height: 200px;
-    display: flex;
-    color: white;
-    background-image: url(/src/images/header-bg.png);
-    font-size: 40px;
-  
-    align-items: center;
-    position: relative;
-  
-    justify-content: space-evenly;
-  }
-  .topSale h1 {
-    background-color: black;
-    width: 400px;
-    padding: 10px;
-    cursor: pointer;
-  }
-  .topSale h1:hover {
-    color: gray;
-  }
+  width: 100%;
+  height: 200px;
+  display: flex;
+  background-color: var(--dark);
+  /* background-image: url(/src/images/header-bg.png); */
+  font-size: 40px;
+  align-items: center;
+  position: relative;
+
+  justify-content: space-evenly;
+}
+.topSale h1 {
+  padding: 10px;
+  cursor: pointer;
+  color: var(--productBg);
+}
+.topSale h1:hover {
+  color: var(--light);
+}

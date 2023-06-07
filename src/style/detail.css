@@ -1,9 +1,16 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+}
+
 .detail {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  background-color: var(--bg);
+  background-color: var(--light);
   width: 100%;
   min-height: 900px;
   position: relative;
@@ -16,13 +23,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 2px solid gray;
+  border: 2px solid var(--dark);
   border-radius: 50%;
-  color: white;
+  color: var(--dark);
   font-size: 50px;
   position: absolute;
   top: 290px;
   left: 1300px;
+  padding-top: 15px;
 }
 .basket i:hover {
   color: gray;
@@ -34,13 +42,13 @@
   font-size: 15px;
   position: absolute;
   right: 15px;
-  top: 12px;
+  top: 17px;
 }
 
 .detailProduct {
   width: 900px;
   height: 400px;
-  background-color: white;
+  background-color: var(--productBg);
   border-radius: 10px;
   display: flex;
   flex-direction: flex;
@@ -60,6 +68,10 @@
 .detailProduct div img {
   width: 350px;
   height: 300px;
+  transition: all 0.4s;
+}
+.detailProduct div img:hover {
+  transform: scale(1.2);
 }
 .detailProduct p {
   width: 60%;
@@ -68,8 +80,11 @@
   padding: 10px;
   width: 250px;
   cursor: pointer;
-  border: 1px solid gray;
+  background-color: var(--dark);
+  color: var(--productBg);
+  border: none;
 }
 .detailProduct button:hover {
-  background-color: lightgray;
+  background-color: gray;
+  color: var(--dark);
 }

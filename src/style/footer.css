@@ -1,7 +1,13 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+}
 footer {
   width: 100%;
   height: 100px;
-  background-color: white;
+  background-color: var(--productBg);
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
   display: flex;
@@ -23,6 +29,7 @@ footer .icons {
   justify-content: space-around;
   width: 20%;
   font-size: 30px;
+  color: var(--dark);
 }
 footer .icons p:hover {
   color: gray;

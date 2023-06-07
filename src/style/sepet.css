@@ -1,13 +1,19 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+}
+
 .sepet {
   width: 100%;
-
   min-height: 730px;
   display: flex;
   flex-direction: column;
 
   align-items: center;
   justify-content: space-between;
-  background-color: var(--bg);
+  background-color: var(--light);
 }
 .basketProducts {
   margin: auto;
@@ -18,7 +24,7 @@
   justify-content: center;
   align-items: center;
   justify-content: space-around;
-  background-color: white;
+  background-color: var(--productBg);
   padding: 40px;
   border-radius: 10px;
 }
@@ -28,8 +34,7 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  border: 1px solid gray;
-  background-color: white;
+  border: 1px solid var(--dark);
   margin: 5px;
 }
 .basketProduct img {
@@ -58,11 +63,14 @@
   background-color: white;
 }
 .basketFooter button {
-  background-color: white;
+  background-color: var(--dark);
   padding: 10px;
-  border: 1px solid gray;
+  width: 150px;
+  color: var(--productBg);
+  border: none;
   cursor: pointer;
 }
 .basketFooter button:hover {
-  background-color: lightgray;
+  background-color: gray;
+  color: var(--dark);
 }
