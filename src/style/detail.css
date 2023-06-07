@@ -2,34 +2,29 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: gray;
+  background-color: var(--bg);
   width: 100%;
   height: 100vh;
+  position: relative;
 }
-.detailHeader {
-  width: 60%;
-  height: 120px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px;
-}
-.detailHeader button {
-  cursor: pointer;
-  border: none;
-  color: white;
-  font-size: 50px;
-  background-color: gray;
-}
+
 .basket {
   width: 100px;
-  height: 50px;
+  height: 100px;
   cursor: pointer;
-
-  background-color: gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid gray;
+  border-radius: 50%;
   color: white;
   font-size: 50px;
-  position: relative;
+  position: absolute;
+  top: 290px;
+  left: 1300px;
+}
+.basket i:hover {
+  color: gray;
 }
 .basketLenght {
   width: 15px;
@@ -37,27 +32,43 @@
   color: orange;
   font-size: 15px;
   position: absolute;
-  right: 13px;
-  top: 2px;
+  right: 15px;
+  top: 12px;
 }
-.basketClear {
-  width: 15px;
-  height: 15px;
-  color: darkred;
-  font-size: 15px;
-  position: absolute;
-  left: 12px;
-  top: 2px;
-}
+
 .detailProduct {
-  width: 500px;
-  height: 550px;
+  width: 900px;
+  height: 400px;
   background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px;
+}
+.detailProduct div {
+  width: 50%;
+  height: 100%;
+  padding: 5%;
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
   align-items: center;
-  justify-content: space-around;
+}
+.detailProduct div img {
+  width: 350px;
+  height: 300px;
 }
 .detailProduct p {
   width: 60%;
+}
+.detailProduct button {
+  padding: 10px;
+  width: 250px;
+  cursor: pointer;
+  border: 1px solid gray;
+}
+.detailProduct button:hover {
+  background-color: lightgray;
 }

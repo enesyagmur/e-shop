@@ -5,6 +5,8 @@ import "../../style/products.css";
 import SearchBar from "./searchBar";
 import Filter from "./filter";
 import ProductList from "./ProductList";
+import Header from "../home/header";
+import Footer from "../home/footer";
 
 const Products = () => {
   const [data, setData] = useState("");
@@ -19,7 +21,7 @@ const Products = () => {
     } else {
       setData(db);
     }
-  // eslint-disable-next-line react-hooks/exhaustive-deps
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const categoryFilter = (categoryName) => {
@@ -56,12 +58,14 @@ const Products = () => {
 
   return (
     <div className="products">
+      <Header />
       <SearchBar sort={sort} search={search} />
 
       <main>
         {category === "hepsi" ? <Filter filtered={categoryFilter} /> : null}
         <ProductList data={data} />
       </main>
+      <Footer />
     </div>
   );
 };

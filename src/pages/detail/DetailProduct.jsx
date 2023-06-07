@@ -26,16 +26,20 @@ const DetailProduct = ({
 
   return (
     <div className="detailProduct">
-      <img src={productImage} />
-      <h5>{productName}</h5>
-      <p>{productDetail}</p>
-      <h5>{productPrice} TL</h5>
+      <div>
+        <img src={productImage} />{" "}
+      </div>
+      <div>
+        <h5>{productName}</h5>
+        <p>{productDetail}</p>
+        <h5>{productPrice} TL</h5>
 
-      <button
-        onClick={() => addToBasket(productName, productPrice, productImage)}
-      >
-        Sepete Ekle
-      </button>
+        <button
+          onClick={() => addToBasket(productName, productPrice, productImage)}
+        >
+          Sepete Ekle
+        </button>
+      </div>
     </div>
   );
 };

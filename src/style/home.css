@@ -2,66 +2,36 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
+}
+:root {
+  --bg: rgb(13, 13, 13);
+  --productBg: white;
 }
 .home {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* background-image: linear-gradient(rgb(1, 1, 3), rgb(87, 86, 86)); */
+  justify-content: space-between;
   background-color: rgb(13, 13, 13);
 
-  height: 1050px;
+  overflow-x: hidden;
+  height: 1250px;
   width: 100%;
-}
-.topSale {
-  width: 100%;
-  height: 200px;
-  display: flex;
-  color: white;
-  background-image: url(/src/images/header-bg.png);
-  font-size: 40px;
-
-  align-items: center;
-  position: relative;
-
-  justify-content: space-evenly;
-}
-.topSale h1 {
-  position: absolute;
-  left: -100px;
-  animation: color 2s infinite ease;
-}
-
-@keyframes color {
-  0% {
-    left: 0px;
-  }
-  25% {
-    left: 200px;
-  }
-  50% {
-    left: 400px;
-  }
-  75% {
-    left: 800px;
-  }
-  100% {
-    left: 1200px;
-  }
 }
 
 /*-------------------------------------*/
 .category {
   width: 80%;
-  height: 380px;
+  height: 300px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 .category div {
-  width: 15%;
-  height: 250px;
+  width: 10%;
+  height: 150px;
   border: 1px solid gray;
   background-color: white;
   display: flex;
@@ -69,7 +39,8 @@
   justify-content: center;
   cursor: pointer;
   border-radius: 10px;
-  font-size: 90px;
+  font-size: 40px;
+  margin: 5px;
 }
 .category div:hover {
   color: gray;
@@ -78,30 +49,38 @@
 /*-----------------------------------------*/
 .newProducts {
   width: 80%;
-
+  height: 700px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  position: relative;
 }
 .bestSale {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  flex-wrap: wrap;
   width: 100%;
 }
 .bestSale div {
-  width: 30%;
+  width: 220px;
   height: 250px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-  background-color: white;
+  background-color: var(--productBg);
   margin: 5px;
   border-radius: 10px;
+  margin-top: 20px;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+.bestSale div:hover {
+  box-shadow: 0px 2px 2px 2px gray;
 }
 .bestSale div img {
-  width: 100px;
+  width: 120px;
   transition: all 0.3s;
 }
 .bestSale div img:hover {
@@ -110,20 +89,15 @@
 .bestSale div h5 {
   width: 100px;
   cursor: pointer;
+  font-size: 10px;
 }
 .bestSale div h5:hover {
   color: gray;
 }
 .bestSale div button {
   width: 100px;
-}
-
-/*------------------------------*/
-footer {
-  margin-top: 110px;
-  width: 100%;
-  height: 100px;
   background-color: white;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+  padding: 5px;
+  border: none;
+  border-bottom: 1px solid gray;
 }

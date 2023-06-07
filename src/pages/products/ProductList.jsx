@@ -16,7 +16,7 @@ const ProductList = ({ data }) => {
               <img src={item.image} onClick={() => goDetail(item.name)} />
               <h3 onClick={() => goDetail(item.name)}>{item.name}</h3>
               <p>{item.category}</p>
-              <h4>{item.price} TL</h4>
+              <button>{item.price} TL</button>
             </div>
           ))
         : null}
