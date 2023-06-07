@@ -1,12 +1,12 @@
 import React from "react";
 import "../../style/home.css";
 import { useNavigate } from "react-router-dom";
-import { CgBox } from "react-icons/cg";
-import { BsLaptop } from "react-icons/bs";
-import { GiProcessor } from "react-icons/gi";
-import { BsMouse2 } from "react-icons/bs";
+
+import { BsFillLaptopFill } from "react-icons/bs";
+import { BsGpuCard } from "react-icons/bs";
+import { BsFillMouse2Fill } from "react-icons/bs";
 import { GrWindows } from "react-icons/gr";
-import { AiOutlineSmallDash } from "react-icons/ai";
+import { RiComputerFill } from "react-icons/ri";
 
 const Category = () => {
   const naviGate = useNavigate();
@@ -16,22 +16,22 @@ const Category = () => {
   return (
     <div className="category">
       <div onClick={() => goCategory("Hazır Sistem")}>
-        <CgBox />
+        <RiComputerFill />
       </div>
       <div onClick={() => goCategory("Laptop")}>
-        <BsLaptop />
+        <BsFillLaptopFill />
       </div>
       <div onClick={() => goCategory("Ekipman")}>
-        <BsMouse2 />
+        <BsFillMouse2Fill />
       </div>
       <div onClick={() => goCategory("Bileşen")}>
-        <GiProcessor />
+        <BsGpuCard />
       </div>
       <div onClick={() => goCategory("Yazılım")}>
         <GrWindows />
       </div>
       <div onClick={() => goCategory("hepsi")}>
-        <AiOutlineSmallDash />
+        <p>All</p>
       </div>
     </div>
   );

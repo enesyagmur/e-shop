@@ -9,6 +9,7 @@ const Home = () => {
       <Header />
       <Category />
       <NewProducts />
+     <footer></footer>
     </div>
   );
 };

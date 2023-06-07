@@ -10,7 +10,6 @@ const NewProducts = () => {
   };
   return (
     <div className="newProducts">
-      <h1>ÇOK SATILANLAR</h1>
       <div className="bestSale">
         <div key={Math.random()}>
           <img src={db[1].image} />
@@ -27,7 +26,7 @@ const NewProducts = () => {
           <h5 onClick={() => goDetail(db[8].name)}>{db[8].name}</h5>
           <button>{db[8].price} TL</button>
         </div>
-        <div key={Math.random()}>      
+        <div key={Math.random()}>
           <img src={db[11].image} onClick={() => goDetail(db[11].name)} />
           <h5 onClick={() => goDetail(db[11].name)}>{db[11].name}</h5>
           <button>{db[11].price} TL</button>
