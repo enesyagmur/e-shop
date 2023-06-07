@@ -10,7 +10,6 @@
   height: 200px;
   display: flex;
   background-color: var(--dark);
-  /* background-image: url(/src/images/header-bg.png); */
   font-size: 40px;
   align-items: center;
   position: relative;
@@ -20,8 +19,13 @@
 .topSale h1 {
   padding: 10px;
   cursor: pointer;
-  color: var(--productBg);
+  background-color: var(--light);
+  transition: all 0.4s;
+  color: var(--dark);
+  width: 600px;
+
+  clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
 }
 .topSale h1:hover {
-  color: var(--light);
+  clip-path: polygon(25% 0%, 100% 1%, 100% 100%, 25% 100%, 0% 50%);
 }

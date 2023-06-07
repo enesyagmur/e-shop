@@ -2,7 +2,7 @@
 
 import "../../style/sepet.css";
 import { useSelector, useDispatch } from "react-redux";
-import { deleteProduct } from "../../redux/slice";
+import { deleteProduct, clearProducts } from "../../redux/slice";
 import Header from "../../components/header";
 import Footer from "../../components/footer";
 
@@ -12,6 +12,10 @@ const Basket = () => {
 
   const dell = (id) => {
     dispatch(deleteProduct(id));
+  };
+
+  const clear = () => {
+    dispatch(clearProducts());
   };
 
   return (
@@ -29,7 +33,7 @@ const Basket = () => {
             ))
           : null}
         <div className="basketFooter">
-          <button>Temizle</button> <p>{basket.length}</p>
+          <button onClick={clear}>Temizle</button> <p>{basket.length}</p>
         </div>
       </div>
       <Footer />
