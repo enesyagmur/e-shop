@@ -53,3 +53,11 @@
   right: 22px;
   top: 35px;
 }
+
+@media screen and (max-width: 825px) {
+  .header {
+    display: flex;
+    flex-direction: column;
+    min-height: 200px;
+  }
+}
