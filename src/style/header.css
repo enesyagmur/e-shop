@@ -14,7 +14,7 @@
   align-items: center;
   position: relative;
 
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 .topSale h1 {
   padding: 10px;
@@ -28,4 +28,28 @@
 }
 .topSale h1:hover {
   clip-path: polygon(25% 0%, 100% 1%, 100% 100%, 25% 100%, 0% 50%);
+}
+
+.headerIcons {
+  display: flex;
+  width: 20%;
+  height: 100%;
+  align-items: center;
+  justify-content: space-around;
+  color: var(--light);
+  font-weight: bold;
+}
+
+.headerIcons i:hover {
+  color: gray;
+  cursor: pointer;
+}
+.basketLenght {
+  width: 10px;
+  height: 10px;
+  color: orange;
+  font-size: 15px;
+  position: absolute;
+  right: 18px;
+  top: 70px;
 }

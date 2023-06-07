@@ -113,10 +113,11 @@ main {
   padding: 10px;
   margin: 10px;
   width: 150px;
-  background-color: var(--dark);
-  color: var(--productBg);
+  background-color: var(--productBg);
+  color: var(--dark);
   cursor: pointer;
 }
 .filter button:hover {
-  background-color: gray;
+  background-color: var(--dark);
+  color: var(--productBg);
 }
