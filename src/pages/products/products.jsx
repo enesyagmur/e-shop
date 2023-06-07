@@ -25,7 +25,7 @@ const Products = () => {
   }, []);
 
   const categoryFilter = (categoryName) => {
-    if (categoryName === "hepsi") {
+    if (categoryName === "Hepsi") {
       setData(db);
     } else {
       const newDb = db.filter((item) => item.category === categoryName);
