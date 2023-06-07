@@ -16,10 +16,8 @@
   position: relative;
 }
 
-
-
 .detailProduct {
-  width: 900px;
+  width: 70%;
   height: 400px;
   background-color: var(--productBg);
   border-radius: 10px;
@@ -60,4 +58,24 @@
 .detailProduct button:hover {
   background-color: gray;
   color: var(--dark);
+}
+
+@media screen and (max-width: 1020px) {
+  .detailProduct {
+    flex-direction: column;
+    min-height: 800px;
+  }
+  .detailProduct p {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 620px) {
+  .detailProduct {
+    width: 82%;
+  }
+}
+@media screen and (max-width: 520px) {
+  .detailProduct {
+    width: 100%;
+  }
 }

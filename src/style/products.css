@@ -23,7 +23,7 @@
   justify-content: center;
 }
 .searchBar input {
-  width: 900px;
+  width: 50%;
   padding: 10px;
   margin: 10px;
   border-radius: 10px;
@@ -31,7 +31,7 @@
 }
 .searchBar button {
   padding: 5px;
-  width: 150px;
+  width: 10%;
   border-radius: 10px;
   border: none;
   padding: 10px;
@@ -50,7 +50,7 @@ main {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  width: 100%;
+  width: 80%;
   padding-top: 50px;
   border-left: 1px solid var(--productBg);
 }
@@ -106,7 +106,7 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 300px;
+  width: 20%;
   height: 500px;
 }
 .filter button {
@@ -115,7 +115,7 @@ main {
   border-radius: 10px;
   padding: 10px;
   margin: 10px;
-  width: 150px;
+  width: 70%;
   background-color: var(--productBg);
   color: var(--dark);
   cursor: pointer;
@@ -123,4 +123,13 @@ main {
 .filter button:hover {
   background-color: var(--dark);
   color: var(--productBg);
+}
+
+@media screen and (max-width: 600px) {
+  .searchBar button {
+    width: 60px;
+  }
+  .filter {
+    width: 120px;
+  }
 }

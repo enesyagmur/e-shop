@@ -5,10 +5,14 @@
   font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
 }
 :root {
-  /* --bg: rgb(13, 13, 13); */
   --dark: #27374d;
   --light: #dde6ed;
   --productBg: white;
+  --hugeFont: 50px;
+  --bigFont: 40px;
+  --midFont: 30px;
+  --smallFont: 20px;
+  --xsmalFont: 10px;
 }
 .home {
   display: flex;
@@ -18,14 +22,14 @@
   background-color: var(--light);
 
   overflow-x: hidden;
-  height: 1250px;
+  min-height: 1250px;
   width: 100%;
 }
 
 /*-------------------------------------*/
 .category {
   width: 80%;
-  height: 300px;
+  min-height: 300px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -42,7 +46,7 @@
   justify-content: center;
   cursor: pointer;
   border-radius: 10px;
-  font-size: 40px;
+  font-size: var(--bigFont);
   margin: 5px;
 }
 .category div:hover {
@@ -52,7 +56,7 @@
 /*-----------------------------------------*/
 .newProducts {
   width: 80%;
-  height: 700px;
+  min-height: 700px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -92,7 +96,7 @@
 .bestSale div h5 {
   width: 100px;
   cursor: pointer;
-  font-size: 10px;
+  font-size: var(--xsmallFont);
 }
 .bestSale div h5:hover {
   color: gray;
@@ -103,4 +107,30 @@
   padding: 5px;
   border: none;
   border-bottom: 1px solid gray;
+}
+
+@media screen and (max-width: 825px) {
+  .category {
+    display: flex;
+    justify-content: center;
+  }
+  .category div {
+    font-size: var(--midFont);
+    width: 14%;
+  }
+}
+
+@media screen and (max-width: 618px) {
+  .bestSale {
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .category {
+    width: 70%;
+  }
+  .category div {
+    width: 24%;
+  }
 }

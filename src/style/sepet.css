@@ -10,17 +10,15 @@
   min-height: 730px;
   display: flex;
   flex-direction: column;
-
   align-items: center;
   justify-content: space-between;
   background-color: var(--light);
 }
 .basketProducts {
   margin-top: 40px;
-  width: 40%;
+  width: 600px;
   flex-direction: column;
   display: flex;
-
   align-items: center;
   justify-content: space-around;
   background-color: var(--productBg);
@@ -29,9 +27,8 @@
 }
 .basketProduct {
   width: 100%;
-  height: 110px;
+  min-height: 110px;
   display: flex;
-
   align-items: center;
   justify-content: space-evenly;
   border: 1px solid var(--dark);
@@ -65,7 +62,7 @@
 .basketFooter button {
   background-color: var(--dark);
   padding: 10px;
-  width: 150px;
+  width: 40%;
   color: var(--productBg);
   border: none;
   cursor: pointer;
@@ -73,4 +70,20 @@
 .basketFooter button:hover {
   background-color: gray;
   color: var(--dark);
+}
+
+@media screen and (max-width: 650px) {
+  .basketProducts {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .basketProduct {
+    flex-direction: column;
+    min-height: 200px;
+  }
+  .basketProduct button {
+    width: 50%;
+  }
 }

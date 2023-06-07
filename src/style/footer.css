@@ -6,7 +6,7 @@
 }
 footer {
   width: 100%;
-  height: 100px;
+  min-height: 100px;
   background-color: var(--productBg);
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
@@ -35,4 +35,15 @@ footer .icons {
 footer .icons p:hover {
   color: gray;
   cursor: pointer;
+}
+
+@media screen and (max-width: 420px) {
+  footer {
+    flex-direction: column;
+    padding: 10px;
+  }
+  footer div {
+    width: 100%;
+    height: 50px;
+  }
 }

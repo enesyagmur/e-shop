@@ -10,7 +10,7 @@
   height: 110px;
   display: flex;
   background-color: var(--dark);
-  font-size: 40px;
+
   align-items: center;
   position: relative;
 
@@ -22,7 +22,8 @@
   background-color: var(--productBg);
   transition: all 0.4s;
   color: var(--dark);
-  width: 600px;
+  width: 45%;
+  font-size: var(--hugeFont);
 
   clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
 }
@@ -37,21 +38,25 @@
   align-items: center;
   justify-content: space-around;
   color: var(--light);
-  font-size: 25px;
+  font-size: var(--midFont);
 }
-
+.headerIcons i {
+  padding: 10px;
+}
 .headerIcons i:hover {
   color: gray;
   cursor: pointer;
+}
+.header .basket {
+  position: relative;
 }
 .basketLenght {
   width: 10px;
   height: 10px;
   color: orange;
-  font-size: 15px;
+  font-size: var(--xsmalFont);
   position: absolute;
-  right: 22px;
-  top: 35px;
+  right: 0;
 }
 
 @media screen and (max-width: 825px) {
@@ -60,4 +65,10 @@
     flex-direction: column;
     min-height: 200px;
   }
+  .header h1 {
+    width: 90%;
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 620px) {
 }

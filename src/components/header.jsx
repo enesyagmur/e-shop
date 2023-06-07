@@ -31,7 +31,6 @@ const Header = () => {
         </i>
         <i>
           <BsTelephone />
-          <a href="#"></a>
         </i>
         <div className="basket">
           <p className="basketLenght">{basket.length}</p>
