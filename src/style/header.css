@@ -5,9 +5,9 @@
   font-family: "Gill Sans", "Gill Sans MT", "Trebuchet MS", sans-serif;
 }
 
-.topSale {
+.header {
   width: 100%;
-  height: 160px;
+  height: 110px;
   display: flex;
   background-color: var(--dark);
   font-size: 40px;
@@ -16,7 +16,7 @@
 
   justify-content: space-between;
 }
-.topSale h1 {
+.header h1 {
   padding: 10px;
   cursor: pointer;
   background-color: var(--productBg);
@@ -26,7 +26,7 @@
 
   clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
 }
-.topSale h1:hover {
+.header h1:hover {
   clip-path: polygon(25% 0%, 100% 1%, 100% 100%, 25% 100%, 0% 50%);
 }
 
@@ -37,7 +37,7 @@
   align-items: center;
   justify-content: space-around;
   color: var(--light);
-  font-weight: bold;
+  font-size: 25px;
 }
 
 .headerIcons i:hover {
@@ -50,6 +50,6 @@
   color: orange;
   font-size: 15px;
   position: absolute;
-  right: 18px;
-  top: 50px;
+  right: 22px;
+  top: 35px;
 }

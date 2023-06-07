@@ -259,5 +259,12 @@
     "detail": "Multi Device (3 Kullanıcı 1 Yıl)",
     "category": "Yazılım",
     "image": "https://img-itopya.mncdn.com/cdn/250/kaspersky-internet-security-multi-device-3-kullanici-1-yil--75c05b.jpg"
+  },
+  {
+    "name": "McAfee Total Protection",
+    "price": 599,
+    "detail": "Dijital Kimlik Koruma 10 Cihaz - 1 Yıl",
+    "category": "Yazılım",
+    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/mcafee/thumb/TeoriV2-92866_small.jpg"
   }
 ]

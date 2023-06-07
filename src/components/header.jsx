@@ -23,7 +23,7 @@ const Header = () => {
     navigate(`/products/hepsi`);
   };
   return (
-    <div className="topSale">
+    <div className="header">
       <h1 onClick={goHome}>PCSHOP</h1>
       <div className="headerIcons">
         <i onClick={goProducts}>
