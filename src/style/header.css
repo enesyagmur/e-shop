@@ -22,7 +22,7 @@
   background-color: var(--productBg);
   transition: all 0.4s;
   color: var(--dark);
-  width: 45%;
+  width: 35%;
   font-size: var(--hugeFont);
 
   clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
